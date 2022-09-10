@@ -7,6 +7,10 @@ namespace Ticketing
 {
     public class TicketPrice
     {
+        /// <summary>
+        /// Setting variables
+        /// </summary>
+        
         private int section;
         private int quantity;
         private bool discount;
@@ -18,7 +22,7 @@ namespace Ticketing
         const decimal mdecBox = 62.0m;
         const decimal mdecDiscount = 5.0m; 
 
-        private int Section
+        private int Section // Getters and Setters
         {
             get { return section; }
             set { section = value; }
@@ -53,6 +57,8 @@ namespace Ticketing
 
      public void calculatePrice()
      {
+         
+         //Switch
 
          switch (section)
          {
