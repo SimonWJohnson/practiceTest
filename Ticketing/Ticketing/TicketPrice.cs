@@ -9,6 +9,8 @@ namespace Ticketing
     {
         /// <summary>
         /// Setting variables
+        /// Adding more comments
+        /// Adding even more comments
         /// </summary>
         
         private int section;
