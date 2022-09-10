@@ -55,7 +55,7 @@ namespace Ticketing
         AmountDue = amountDue;
     }
 
-     public void calculatePrice()
+     public void calculatePrice() //Method for setting the discount
      {
          
          //Switch
